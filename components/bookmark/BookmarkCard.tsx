@@ -1,6 +1,4 @@
-'use client';
-
-import { useState } from 'react';
+import Image from 'next/image';
 import { Bookmark } from '@/types';
 import { createClient } from '@/lib/supabase/client';
 import toast from 'react-hot-toast';
@@ -77,10 +75,12 @@ export function BookmarkCard({ bookmark, onDeleted }: BookmarkCardProps) {
           <div className="flex-shrink-0">
             {!imageError && faviconUrl ? (
               <div className="w-12 h-12 rounded-xl bg-white shadow-md flex items-center justify-center overflow-hidden border border-gray-100">
-                <img
+                <Image
                   src={faviconUrl}
                   alt={getDomain(bookmark.url)}
-                  className="w-8 h-8 object-contain"
+                  width={32}
+                  height={32}
+                  className="object-contain"
                   onError={() => setImageError(true)}
                 />
               </div>
