@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import { Bookmark } from '@/types';
 import { createClient } from '@/lib/supabase/client';
