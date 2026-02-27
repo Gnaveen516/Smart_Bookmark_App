@@ -1,6 +1,6 @@
 # 🔖 Smart Bookmark Manager
 
-<img width="960" height="580" alt="image" src="https://github.com/user-attachments/assets/9f0f378a-e18b-403d-9612-a7cceb29c085" />
+<img width="960" height="520" alt="image" src="https://github.com/user-attachments/assets/9f0f378a-e18b-403d-9612-a7cceb29c085" />
 
 
 A modern, production-ready bookmark management application with real-time synchronization across multiple tabs. Built with Next.js 14, Supabase, and Tailwind CSS.
